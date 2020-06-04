@@ -3,6 +3,10 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start-api": "node index.js"
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "graphql": "^15.0.0",
+    "typescript": "^3.9.3"
   }
 }
