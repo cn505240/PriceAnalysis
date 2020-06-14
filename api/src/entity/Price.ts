@@ -7,7 +7,7 @@ export class Price {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @ManyToOne(type => Model, model => model.id)
+    @ManyToOne(() => Model, model => model.id)
     model: Model
 
     @Column()
